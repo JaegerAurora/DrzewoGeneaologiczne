@@ -1,0 +1,252 @@
+body{
+    background-image: url("las.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+div.credits{
+    font-size: 30%;
+    color: #4e555b;
+    position:relative;
+    top: 95%;
+    left: 0;
+}
+
+div.box{
+    width: 300px;
+    height: 200px;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    font-family:"Arial", Sans-serif;
+    padding: 15px;
+    margin-top: -100px;
+    margin-left: -150px;
+}
+
+div.newTr{
+    width: 600px;
+    height: max-content;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    position:relative;
+    top: 25%;
+    left: 50%;
+    font-family:"Arial", Sans-serif;
+    padding: 15px;
+    margin-top: -100px;
+    margin-left: -150px;
+
+}
+
+div.boxRej{
+    width: 300px;
+    height: max-content;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    position:fixed;
+    top: 25%;
+    left: 50%;
+    font-family:"Arial", Sans-serif;
+    padding: 15px;
+    margin-top: -100px;
+    margin-left: -150px;
+}
+
+div.guziki{
+    margin-left: 35%;
+}
+
+div.persones{
+    border-bottom: 1px white solid;
+}
+
+img.bi2{
+    height:3%;
+    width: 3%;
+    margin-left: 3%;
+    padding:0;
+}
+
+
+img.butticon{
+    height:5%;
+    width: 5%;
+    margin-left: 10%;
+    padding: 1%;
+
+}
+
+
+input.formy{
+    width:75%;
+    height: 17%;
+    border: 1px solid white;
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    color: white;
+    background-color: black;
+
+}
+
+input[type=submit] {
+    background-color: rgb(168, 10, 41);
+    color:white;
+    border: 2px solid rgb(168, 10, 41);
+    margin-left: 10%;
+    margin-bottom: 10px;
+    height: 15px;
+    font-size: 7px;
+}
+
+select.wybor{
+    width:25%;
+    min-height: 10%;
+    border: 1px solid white;
+    margin-left: 30%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    color: white;
+    background-color: black;
+    font-size: 7px;
+}
+
+select.wyborS{
+    width:25%;
+    min-height: 10%;
+    border: 1px solid white;
+    margin-left: 2%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    color: white;
+    background-color: black;
+    font-size: 7px;
+}
+
+form.formOsoby{
+    border: 1px #ffdf7e solid;
+    margin: 5px;
+    padding: 2px;
+    width: max-content;
+}
+
+.anuluj{
+
+    background-color: rgb(168, 10, 41);
+    color:white;
+    border: 2px solid rgb(168, 10, 41);
+    margin-left: 10%;
+    margin-bottom: 10px;
+    height: 15px;
+    font-size: 7px;
+}
+
+.gender{
+    height: 7px;
+    width: 7px;
+    margin-left: 10%;
+}
+
+table{
+    max-width: content-box;
+
+    height: max-content;
+    margin-left: 9%;
+    padding: 4px;
+    margin-top: 4px;
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+    margin-right: 9%;
+}
+
+td{
+    width: max-content;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    input[type=submit] {
+        background-color: rgb(168, 10, 41);
+        color:white;
+        border: 2px solid rgb(168, 10, 41);
+        margin-left: 10%;
+        margin-bottom: 10px;
+        height: 15px;
+        font-size: 7px;
+    }
+    div.newTr{
+        width: 400px;
+        height: max-content;
+        border: 2px solid white;
+        color: white;
+        background-color: black;
+        position:relative;
+        font-family:"Arial", Sans-serif;
+        padding: 15px;
+        margin-top: 50px;
+        margin-left: -190px;
+        font-size: 7px;
+        overflow: visible;
+    }
+    input.formy{
+        width:50%;
+        height: 10%;
+        border: 1px solid white;
+        margin-left: 10%;
+        margin-top: 5px;
+        margin-bottom:5px;
+        color: white;
+        background-color: black;
+        font-size: 7px;
+
+    }
+    select.wybor{
+        width:25%;
+        min-height: 10%;
+        border: 1px solid white;
+        margin-left: 10%;
+        margin-top: 5px;
+        margin-bottom:5px;
+        color: white;
+        background-color: black;
+        font-size: 7px;
+    }
+    select.wyborS{
+        width:25%;
+        min-height: 10%;
+        border: 1px solid white;
+        margin-left: 2%;
+        margin-top: 5px;
+        margin-bottom:5px;
+        color: white;
+        background-color: black;
+        font-size: 7px;
+    }
+    .gender{
+        height: 5px;
+        width: 5px;
+        margin-left: 10%;
+    }
+    .anuluj{
+
+        background-color: rgb(168, 10, 41);
+        color:white;
+        border: 2px solid rgb(168, 10, 41);
+        margin-left: 10%;
+        margin-bottom: 10px;
+        height: 15px;
+        font-size: 7px;
+    }
+    .zapAn{
+        margin-left: 25%;
+    }
+}
+

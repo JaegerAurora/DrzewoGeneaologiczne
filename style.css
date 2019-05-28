@@ -1,0 +1,201 @@
+﻿body{
+background-image: url("las.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+div.m{
+width: 80%;
+height: max-content;
+background-color: #1c212b;
+position:fixed;
+    top: 5%;
+    left: 10%;
+text-align: center;
+color:#fcfcfc;
+}
+
+div.naglowek{
+position:fixed;
+top: 5%;
+background-color: #893c01;
+height: max-content;
+width:80%;
+margin-bottom: 20px;
+}
+
+h1.z{
+color: white;
+margin-left: 20%;
+margin-bottom: 7px;
+}
+
+div.logoMain{
+width:100px;
+height: 20px;
+margin-left: 0;
+}
+
+.card-group{
+    margin: 10% 5%;
+}
+
+ .card .card-header{
+background-color: #893c01;
+color:white;
+text-align: center;
+     height: 50px;
+     font-size: 20px;
+     padding-top: 10px;
+}
+
+ .card .card-footer{
+background-color: #893c01;
+text-align: center;
+     height: 50px;
+     font-size: 20px;
+     padding: 0;
+}
+
+.card{
+border: none;
+    height: 30%
+}
+
+.cards{
+    width: content-box;
+height: 150px;
+}
+
+h1.SG{
+font-family:"Arial", Sans-serif;
+margin-top:10%;
+}
+
+div.credits{
+    font-size: 30%;
+    color: #4e555b;
+    position:relative;
+    top: 95%;
+    left: 0;
+}
+
+div.tree{
+    color: #1d2124;
+    background-color: #b3b7bb;
+    border: #1d2124 solid 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    height: max-content;
+    width: 90%;
+    text-align: center;
+}
+
+img.bi2{
+    height:4%;
+    width: 4%;
+    margin-left: 3%;
+    padding:0;
+}
+
+div.guziki{
+    margin-left: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+    h1.SG{
+    font-family:"Arial", Sans-serif;
+    margin-top:15%;
+        font-size: 15px;
+    }
+    .card-group{
+        margin: 5%;
+
+    }
+    .cards{
+        width: content-box;
+        height: 80px;
+    }
+    .card{
+        border: none;
+        height: 30%;
+    }
+    .card .card-header{
+        background-color: #893c01;
+        color:white;
+        text-align: center;
+        height: 25px;
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    .card .card-body{
+        padding: 0;
+    }
+    .card .card-footer{
+        background-color: #893c01;
+        text-align: center;
+        height: 20px;
+        font-size: 10px;
+        padding: 0;
+    }
+    div.newTr{
+        width: 400px;
+        height: max-content;
+        border: 2px solid white;
+        color: white;
+        background-color: black;
+        position:fixed;
+        top: 25%;
+        left: 50%;
+        font-family:"Arial", Sans-serif;
+        padding: 15px;
+        margin-top: -50px;
+        margin-left: -190px;
+        font-size: 7px;
+        overflow: visible;
+    }
+    h1.z{
+        color: white;
+        margin-left: 20%;
+        margin-bottom: 7px;
+    }
+    input.formy{
+        width:50%;
+        height: 10%;
+        border: 1px solid white;
+        margin-left: 10%;
+        margin-top: 5px;
+        margin-bottom:5px;
+        color: white;
+        background-color: black;
+        font-size: 7px;
+
+    }
+    select.wybor{
+        width:25%;
+        min-height: 10%;
+        border: 1px solid white;
+        margin-left: 30%;
+        margin-top: 5px;
+        margin-bottom:5px;
+        color: white;
+        background-color: black;
+        font-size: 7px;
+    }
+    select.wyborS{
+        width:25%;
+        min-height: 10%;
+        border: 1px solid white;
+        margin-left: 2%;
+        margin-top: 5px;
+        margin-bottom:5px;
+        color: white;
+        background-color: black;
+        font-size: 7px;
+    }
+
+}
+
