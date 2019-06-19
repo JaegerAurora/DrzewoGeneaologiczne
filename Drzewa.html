@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <title>Drzewa</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="m">
+    <div class="naglowek">
+
+        <a href="main.html"><img src="logo-example1.png" width="20%" height="15%" margin-left="10%" alt="StronaGlowna"></a>
+        <div class="btn-group" height="10%">
+            <a href="Drzewa.html" role="button" class="btn btn-dark btn-sm" >Drzewa</a>
+            <a href="NewTree.html" role="button" class="btn btn-dark btn-sm" >Dodaj Drzewo</a>
+            <a href="Profile.html" role="button" class="btn btn-dark btn-sm">Profile</a>
+            <a href="NewProfile.html" role="button" class="btn btn-dark btn-sm">Dodaj Profil</a>
+            <a href="TwojProfil.html" role="button" class="btn btn-dark btn-sm">Twój profil</a>
+            <a href="Info.html" role="button" class="btn btn-dark btn-sm">Wyloguj</a>
+        </div>
+
+
+    </div>
+
+    <div >
+        <a href="NewTree.html"><img src="plant.svg" class="whattodo"> </a>
+        <a onclick="pokarzMoje()" ><img src="forest.svg" class="whattodo"> </a>
+        <a onclick="wyszukiwanie()"><img src="search.svg" class="whattodo"> </a>
+    </div>
+
+    <div class="your" id="twoje">
+        {lista twoich profili ale tylko imiona}
+    </div>
+    <div class="search" id="szukaj">
+        <form>
+            <input type="text" placeholder="Wpisz nazwe szukanego drzewa..." name="searchName" class="formy"><br>
+            <input type="text" placeholder="Wpisz ID szukanego drzewa..." name="searchId" class="formy"><br>
+            <input type="submit" value="Szukaj">
+        </form>
+        {wyniki wyszukiwania to imiona}
+    </div>
+    <script>
+        function wyszukiwanie(){
+            document.getElementById("twoje").style.visibility = "hidden";
+            document.getElementById("twoje").style.height = "0";
+            document.getElementById("szukaj").style.visibility = "visible";
+            document.getElementById("szukaj").style.height = "max-content";
+        }
+
+        function pokarzMoje() {
+            document.getElementById("szukaj").style.visibility = "hidden";
+            document.getElementById("szukaj").style.height = "0";
+            document.getElementById("twoje").style.visibility = "visible";
+            document.getElementById("twoje").style.height = "max-content";
+
+        }
+
+    </script>
+</div><br>
+
+<div class="credits">
+    Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a><br>
+    Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a><br>
+    Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+</div>
+</body>

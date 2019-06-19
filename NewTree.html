@@ -25,6 +25,7 @@
             </tr>
         </table>
     </div>
+<!--    lista imion-->
 
 <div class="persones">
         <form>
@@ -32,10 +33,11 @@
                     <option>Tu wpisz pierwszą możliwość</option>
                     <option>Tu wpisz drugą możliwość</option>
                 </select>
-            <a href="#" data-toggle="tooltip" title="dodaj"><img src="checked.svg" class="bi2"></a>
+            <a data-toggle="tooltip" title="dodaj"><img src="checked.svg" class="bi2"></a>
             <a href="#" data-toggle="tooltip" title="usun"><img src="x-button.svg" class="bi2"></a>
         </form><br>
-<form class="formOsoby">
+<!--    wybierz z listy-->
+<form class="formOsoby" id="formy">
     Imię<br><input type="text" name="ImieOs" class="formy" ><br>
     Nazwisko<br><input type="text" name="NazwiskOs" class="formy" ><br>
     Płeć<br>
@@ -50,17 +52,17 @@
     Biografia<br>
     <input type="text" name="BioOs" class="formy" ><br>
 
-    <a href="#" data-toggle="tooltip" title="dodaj"><img src="checked.svg" class="bi2"></a>
-    <a href="#" data-toggle="tooltip" title="usun"><img src="x-button.svg" class="bi2"></a>
+    <a onclick="ukryjForme()" data-toggle="tooltip" title="dodaj"><img src="checked.svg" class="bi2"></a>
+    <a onclick="ukryjForme()" data-toggle="tooltip" title="usun"><img src="x-button.svg" class="bi2"></a>
 </form>
 
 
     <div class="guziki">
-        <a href="#" data-toggle="tooltip" title="Dodaj nową osobę"><img src="employee.svg" class="butticon"></a>
+        <a onclick="pokarzForme()" data-toggle="tooltip" title="Dodaj nową osobę"><img src="employee.svg" class="butticon"></a>
         <a href="#" data-toggle="tooltip" title="Dodaj istniejącą osobę"><img src="folder.svg" class="butticon"></a>
     </div>
 <div class="zapAn">
-    <input type="submit" value="Zapisz profile">
+    <input type="submit" value="Zapisz profile" >
     <input type="button" value="Anuluj" class="anuluj">
 </div>
 </div>
@@ -100,12 +102,24 @@
                 <a href="#" data-toggle="tooltip" title="dodaj"><img src="checked.svg" class="bi2"></a>
                 <a href="#" data-toggle="tooltip" title="usun"><img src="x-button.svg" class="bi2"></a>
             </form>
+    <div class="guziki">
+        <a href="#" data-toggle="tooltip" title="Dodaj relacje"><img src="friends.svg" class="butticon"></a>
+    </div>
     <div class="zapAn">
         <input type="submit" value="Zapisz profile" margin-left="20%">
-        <input type="button" value="Anuluj" class="anuluj">
+        <input type="button" value="Anuluj" class="anuluj" onclick="location.href='main.html';">
     </div>
 
-
+<script>
+    function pokarzForme() {
+        document.getElementById("formy").style.visibility = "visible";
+        document.getElementById("formy").style.height = "max-content";
+    }
+    function ukryjForme() {
+        document.getElementById("formy").style.visibility = "hidden";
+        document.getElementById("formy").style.height = "0";
+    }
+</script>
 
 
 </div>

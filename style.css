@@ -10,19 +10,19 @@ div.m{
 width: 80%;
 height: max-content;
 background-color: #1c212b;
-position:fixed;
-    top: 5%;
+    position:relative;
+    top: 20px;
     left: 10%;
 text-align: center;
 color:#fcfcfc;
 }
 
 div.naglowek{
-position:fixed;
-top: 5%;
+position:relative;
+top: 0;
 background-color: #893c01;
 height: max-content;
-width:80%;
+width:100%;
 margin-bottom: 20px;
 }
 
@@ -70,8 +70,8 @@ height: 150px;
 }
 
 h1.SG{
-font-family:"Arial", Sans-serif;
-margin-top:10%;
+    font-family: "Arial", Sans-serif, serif;
+    margin-top: 10%;
 }
 
 div.credits{
@@ -95,20 +95,77 @@ div.tree{
 }
 
 img.bi2{
-    height:4%;
-    width: 4%;
+    height:7%;
+    width: 7%;
     margin-left: 3%;
     padding:0;
+    border: 1px solid #1d2124;
 }
 
 div.guziki{
     margin-left: 50%;
+    margin-bottom: 5%;
+}
+
+div.people
+{
+    margin-top:5%;
+    font-size: 50%;
+    height: max-content;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    border-left:solid 1px;
+    border-right: solid 1px;
+    background-color: #b1dfbb;
+    padding: 5% 5%;
+    color: #1b1e21;
+}
+
+img.imageProfile
+{
+    max-height: 100px;
+}
+
+div.your{
+    border-top: 1px #1d2124;
+    border-bottom: 1px #1d2124;
+    margin-left: 10%;
+    width: 80%;
+    height: max-content;
+    visibility: visible;
+    margin-bottom: 5%;
+
+}
+
+div.search{
+    border-top: 1px #1d2124;
+    border-bottom: 1px #1d2124;
+    margin-left: 10%;
+    width: 80%;
+    height: 0;
+    visibility: hidden;
+    margin-bottom: 5%;
+}
+img.whattodo{
+    height: 50px;
+    /*margin-left: 15%;*/
+    padding: 10px;
+}
+input[type=submit] {
+    background-color: rgb(168, 10, 41);
+    color:white;
+    border: 2px solid rgb(168, 10, 41);
+    margin-left: 10%;
+    margin-bottom: 10px;
+    height: 15px;
+    font-size: 7px;
 }
 
 @media only screen and (max-width: 1000px) {
     h1.SG{
     font-family:"Arial", Sans-serif;
-    margin-top:15%;
+    margin-top:5%;
         font-size: 15px;
     }
     .card-group{
@@ -196,6 +253,19 @@ div.guziki{
         background-color: black;
         font-size: 7px;
     }
+    img.imageProfile
+    {
+        max-height: 70px;
+    }
 
+    input[type=submit] {
+        background-color: rgb(168, 10, 41);
+        color:white;
+        border: 2px solid rgb(168, 10, 41);
+        margin-left: 10%;
+        margin-bottom: 10px;
+        height: 15px;
+        font-size: 7px;
+    }
 }
 
