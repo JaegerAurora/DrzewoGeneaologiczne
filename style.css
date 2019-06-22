@@ -102,6 +102,22 @@ img.bi2{
     border: 1px solid #1d2124;
 }
 
+select.wybor{
+    width:30%;
+    height: 20%;
+    border: 1px solid white;
+    margin-top: 5px;
+    margin-bottom:5px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+
+}
+
+form.ktore{
+		visibility:hidden;
+}
+
 div.guziki{
     margin-left: 50%;
     margin-bottom: 5%;

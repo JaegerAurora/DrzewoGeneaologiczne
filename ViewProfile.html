@@ -34,12 +34,19 @@
             <a href="#" data-toggle="tooltip" title="Edytuj Osobe">
                 <img src="surgery-room.svg" class="bi2">
             </a>
-            <a href="#" data-toggle="tooltip" title="Dodaj do drzewa">
+            <a onclick="dodajDoDrzewa()" data-toggle="tooltip" title="Dodaj do drzewa">
                 <img src="plant.svg" class="bi2">
             </a>
             <a href="#" data-toggle="tooltip" title="Usuń osobę">
                 <img src="knife.svg" class="bi2">
-            </a>
+            </a><br>
+			<form class="ktore" id="ktoreDrzewo">
+			<select name="osoba" class="wybor" >
+                    <option>Tu wpisz pierwszą możliwość</option>
+                    <option>Tu wpisz drugą możliwość</option>
+                </select>
+				<input type="submit" value="Wybierz">
+				</form>
         </div>
         <div class="row">
             <div class="col"><img src="woman.jpg" class="imageProfile"></div>
@@ -56,7 +63,12 @@
         </div>
     </div><br><br>
 
+<script>
+        function dodajDoDrzewa(){
+            document.getElementById("ktoreDrzewo").style.visibility = "visible";
+        }
 
+    </script>
 
 </div><br>
 
