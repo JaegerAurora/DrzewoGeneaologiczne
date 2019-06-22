@@ -15,50 +15,46 @@ div.credits{
 }
 
 div.box{
-    width: 300px;
-    height: 200px;
+    width: 30%;
+    height: max-content;
     border: 2px solid white;
     color: white;
     background-color: black;
     position:fixed;
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 35%;
     font-family:"Arial", Sans-serif;
     padding: 15px;
-    margin-top: -100px;
-    margin-left: -150px;
+
 }
 
 div.newTr{
-    width: 600px;
+    width: 50%;
     height: max-content;
     border: 2px solid white;
     color: white;
     background-color: black;
     position:relative;
     top: 25%;
-    left: 50%;
+    left: 25%;
     font-family:"Arial", Sans-serif;
     padding: 15px;
-    margin-top: -100px;
-    margin-left: -150px;
+
 
 }
 
 div.boxRej{
-    width: 60%;
+	width: 50%;
     height: max-content;
     border: 2px solid white;
     color: white;
     background-color: black;
     position:relative;
-    top: 20%;
-    left: 20%;
+    top: 25%;
+    left: 25%;
     font-family:"Arial", Sans-serif;
     padding: 15px;
-    font-size: 50%;
-    /*margin-top: 100px;*/
-    /*margin-left: 150px;*/
+    
 }
 
 div.guziki{
@@ -103,40 +99,40 @@ input[type=submit] {
     color:white;
     border: 2px solid rgb(168, 10, 41);
     margin-left: 10%;
-    margin-bottom: 10px;
-    height: 15px;
-    font-size: 7px;
+    margin-bottom: 15px;
+    height: 10%;
+    font-size: 15px;
 }
 
 select.wybor{
-    width:25%;
-    min-height: 10%;
+    width:30%;
+    height: 20%;
     border: 1px solid white;
     margin-left: 30%;
     margin-top: 5px;
     margin-bottom:5px;
     color: white;
     background-color: black;
-    font-size: 7px;
+    font-size: 15px;
 }
 
 select.wyborS{
     width:25%;
-    min-height: 10%;
+    height: 10%;
     border: 1px solid white;
     margin-left: 2%;
     margin-top: 5px;
     margin-bottom:5px;
     color: white;
     background-color: black;
-    font-size: 7px;
+    font-size: 15px;
 }
 
 form.formOsoby{
     border: 1px #ffdf7e solid;
     margin: 5px;
-    padding: 2px;
-    width: max-content;
+    padding: 5px;
+    width: 90%;
     height: 0;
     visibility: hidden;
 
@@ -145,13 +141,13 @@ form.formOsoby{
 
 .anuluj{
 
-    background-color: rgb(168, 10, 41);
+background-color: rgb(168, 10, 41);
     color:white;
     border: 2px solid rgb(168, 10, 41);
     margin-left: 10%;
-    margin-bottom: 10px;
-    height: 15px;
-    font-size: 7px;
+    margin-bottom: 15px;
+    height: 10%;
+    font-size: 15px;
 }
 
 .gender{
@@ -178,29 +174,7 @@ td{
 
 @media only screen and (max-width: 1000px) {
 
-    input[type=submit] {
-        background-color: rgb(168, 10, 41);
-        color:white;
-        border: 2px solid rgb(168, 10, 41);
-        margin-left: 10%;
-        margin-bottom: 10px;
-        height: 15px;
-        font-size: 7px;
-    }
-    div.newTr{
-        width: 400px;
-        height: max-content;
-        border: 2px solid white;
-        color: white;
-        background-color: black;
-        position:relative;
-        font-family:"Arial", Sans-serif;
-        padding: 15px;
-        margin-top: 50px;
-        margin-left: -190px;
-        font-size: 7px;
-        overflow: visible;
-    }
+    
     input.formy{
         width:50%;
         height: 10%;
@@ -213,43 +187,13 @@ td{
         font-size: 7px;
 
     }
-    select.wybor{
-        width:25%;
-        min-height: 10%;
-        border: 1px solid white;
-        margin-left: 10%;
-        margin-top: 5px;
-        margin-bottom:5px;
-        color: white;
-        background-color: black;
-        font-size: 7px;
-    }
-    select.wyborS{
-        width:25%;
-        min-height: 10%;
-        border: 1px solid white;
-        margin-left: 2%;
-        margin-top: 5px;
-        margin-bottom:5px;
-        color: white;
-        background-color: black;
-        font-size: 7px;
-    }
+   
     .gender{
         height: 5px;
         width: 5px;
         margin-left: 10%;
     }
-    .anuluj{
-
-        background-color: rgb(168, 10, 41);
-        color:white;
-        border: 2px solid rgb(168, 10, 41);
-        margin-left: 10%;
-        margin-bottom: 10px;
-        height: 15px;
-        font-size: 7px;
-    }
+    
     .zapAn{
         margin-left: 25%;
     }
